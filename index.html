@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VitaFruta</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fff4;
+    }
+    header {
+      background: #28a745;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #28a745;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+    }
+    .producto {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VitaFruta</h1>
+    <p>¡Del campo a tu mesa!</p>
+  </header>
+
+  <section>
+    <h2>Nuestros productos</h2>
+    <div class="productos">
+      <div class="producto">
+        <h3>Mangos</h3>
+        <p>Dulces y jugosos, perfectos para jugos.</p>
+      </div>
+      <div class="producto">
+        <h3>Bananos</h3>
+        <p>Fuente natural de energía y potasio.</p>
+      </div>
+      <div class="producto">
+        <h3>Manzanas</h3>
+        <p>Frescas, crujientes y llenas de sabor.</p>
+      </div>
+      <div class="producto">
+        <h3>Naranjas</h3>
+        <p>Ideales para un jugo lleno de vitamina C.</p>
+      </div>
+    </div>
+
+    <h2>Contáctanos</h2>
+   <p>Teléfono: +57 3153017635 </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 VitaFruta - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
